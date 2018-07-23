@@ -1,6 +1,8 @@
 # tmpl README
 
 templating extension
+clone this repo to `.vscode/extensions`
+:)
 
 ## Features
 you can use this ext. for code with '<%' and '%>' as blocks 
