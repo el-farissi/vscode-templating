@@ -4,6 +4,10 @@
     "description": "templating",
     "version": "0.0.1",
     "publisher": "el-farissi",
+    "author": {
+        "name": "Abdessamad El Farissi",
+        "email": "farissi.abdo@gmail.com"
+    },
     "engines": {
         "vscode": "^1.25.0"
     },
