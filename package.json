@@ -1,0 +1,29 @@
+{
+    "name": "tmpl",
+    "displayName": "tmpl",
+    "description": "templating",
+    "version": "0.0.1",
+    "publisher": "el-farissi",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "url": "https://github.com/el-farissi/vscode-templating.git"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "tmpl",
+            "aliases": ["templating", "tmpl"],
+            "extensions": ["tmpl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tmpl",
+            "scopeName": "*.tmpl",
+            "path": "./syntaxes/tmpl.tmLanguage.json"
+        }]
+    }
+}
